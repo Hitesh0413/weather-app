@@ -1,0 +1,73 @@
+body{
+    padding: 0px 50px 0px 50px;
+    background: url(../img/bg.jpg);
+}
+header,footer{
+    background-color: #e3e3e3;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #252525;
+}
+header a{
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-weight:bold;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100vh;
+    height: 80vh;
+    
+}
+
+.weather-info{
+    margin :0px auto;
+    background-color: rgba(0,0,0,0.5);
+    width: 60vh;
+    height: 80vh;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius:10px;
+}
+
+.weather{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5%;
+}
+img{
+    width: 80vh;
+    height: 40vh;
+    margin-left: 20vh;
+}
+#data-weather,#data-place{
+    color:green;
+    font-size:0.8em;
+    font-weight:bold;
+}
+#message-group{
+    background-color: rgba(255,255,255,0.5) ;
+    height: 100px;
+    width:100vh;
+    margin-top:10px;
+    margin-left:20%;
+    border-radius:10px;
+}
+
+form{
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px 10px 10px;
+}
+
+label{
+    font-size: 1em;
+    color:#fff;
+    font-weight: bold;
+}
+
+form input{
+    margin-left:10px;
+}
+
+

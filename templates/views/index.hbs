@@ -1,0 +1,24 @@
+{{>header}}
+<div class="wrapper container">
+    <div class="weather-info col-md-8">
+        <div class="row">
+            <div class="weather col-md-12">
+                <div class="row">
+                <div><img src="/img/favicon.png" alt="weather"></div>
+                    <div class="col-md-8" id="message-group">
+                        <h5>Place: <span id="data-place"></span></h5>
+                        <h5>Weather: <span id="data-weather"></span></h5>
+                    </div>
+                </div>
+                
+            </div>
+            <form class="form" action="">
+                    <div class="col-md-12 input-group">
+                        <div class="col-md-6"><input id="location" required type="text" placeholder="Type Your Location..." class="form-control"></div>
+                        <div class="col-md-6"><input type="submit" value="Search Weather" class="form-control btn btn-info"></div>
+                    </div>
+                </form>             
+        </div>
+    </div>
+</div>
+{{>footer}}
